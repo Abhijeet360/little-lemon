@@ -7,9 +7,11 @@
 html {
     font-size: 62.5%;
 }
-body{
+
+body {
     background: #F5F5F5;
 }
+
 .container {
     width: 100%;
     display: flex;
@@ -21,6 +23,7 @@ body{
 
 header img {
     width: 202px;
+    height: 100px;
     padding: 0.5rem;
 }
 
@@ -45,5 +48,90 @@ nav a {
     font-style: normal;
     font-weight: 400;
     color: #1E1E1E;
+}
 
+.hero {
+    background-color: #6E6F6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.discription {
+    width: 422px;
+    height: 331px;
+}
+
+.discription h1 {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: #F4CE14;
+}
+
+.discription h2 {
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #EDEFEE;
+}
+
+.discription p {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140.62%;
+    color: #EDEFEE;
+}
+
+.btn {
+    width: 200px;
+    height: 60px;
+    background-color: #F4CE14;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #1E1E1E;
+    color: #EDEFEE;
+}
+
+.image-secion img {
+    width: 375px;
+    height: 325px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.highlights {
+    width: 858px;
+    height: 555px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+.spacial {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spacial h1 {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
 }
